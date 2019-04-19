@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Contact Us | Looptrace</title>
+    <meta name="description" content="" />
+    <meta name="author" content="Looptrace" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,maximum-scale=1"
+    />
+    <meta property="og:image" content="img/ogimage.jpg" />
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+    <link href="css/assets.min.css" rel="stylesheet" />
+    <link href="css/style.min.css" rel="stylesheet" />
+    <link href="css/custom.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:400,700%7CVarela+Round"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="scrolled">
+      <div class="container">
+        <div class="row">
+          <a href="index.html" class="logo"
+            ><img src="./img/top-logo.png" alt="Rocket" class="top-logo" /> </a
+          ><a href="#" class="menutoggle"><div class="bar"></div></a>
+          <ul class="menu">
+            <li class="top-bar-wrap">
+              <a href="index.html" class="close-icon-wrap"
+                ><div class="close-icon"></div
+              ></a>
+            </li>
+            <li id="li-home">
+              <a href="index.html">Home</a>
+            </li>
+            <!-- <li id="li-services">
+              <a href="index.html">Services</a>
+            </li>
+
+            <li id="li-about">
+              <a href="index.html">About Us</a>
+            </li>
+
+            <li id="li-team">
+              <a href="index.html">Our Team</a>
+            </li>
+            <li class="active">
+              <a href="#!">Contact Us</a>
+            </li> -->
+          </ul>
+        </div>
+      </div>
+    </header>
+    <section class="dark-pattern-section coming-soon-section mt-5">
+      <div class="container light-widget">
+        <div class="row">
+          <div class="col-md-6 text-left">
+            <h4 class="mt-6">Contact Address</h4>
+
+            <p>
+              Thank you for your interest in Looptrace and our services. Please
+              fill out the form by your right or e-mail us at
+              contact@looptrace.com and we will get back to you promptly
+              regarding your request.
+            </p>
+            <h5 class="text-bold">
+              <i class="fa fa-map-pin"></i> No 136 Ogui Road Enugu, Enugu State
+              Nigeria.
+            </h5>
+
+            <h5 class="text-bold">
+              <i class="fa fa-envelope"></i>
+              <a class="text-white" href="mailto:contact@looptrace.com"
+                >contact@looptrace.com</a
+              >
+            </h5>
+
+            <h5 class="text-bold">
+              <i class="fa fa-phone"></i>
+              <span class="mr-5">(+234) 902 391 3002 </span> |
+              <span class="ml-5">(+234) 706 465 5443 </span>
+            </h5>
+            <ul class="inline-list mt-5">
+              <li>
+                <a class="social-icon" href="https://www.facebook.com/otisidev"
+                  ><i class="fa fa-facebook fa-lg"></i
+                ></a>
+              </li>
+              <li>
+                <a class="social-icon" href="https://www.github.com/otisidev"
+                  ><i class="fa fa-github-square fa-lg"></i
+                ></a>
+              </li>
+              <li>
+                <a class="social-icon" href="https://www.linkedin.com/otisidev"
+                  ><i class="fa fa-linkedin-square fa-lg"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-6">
+            <div class="section-header">
+              <h2 class="section-title">Reach Us Now</h2>
+              <p class="section-subtitle">
+                We’ll help you bring your most complex software vision to life.
+              </p>
+              <hr />
+            </div>
+            <div class="widget categories-widget">
+              <form class="form-group" method="post" action="#">
+                <div class="form-group">
+                  <input
+                    name="email"
+                    required="required"
+                    placeholder="Enter your email address"
+                    type="email"
+                    class=" form-control"
+                  />
+                </div>
+                <div class="form-group">
+                  <input
+                    name="name"
+                    required="required"
+                    placeholder="Enter your name"
+                    type="name"
+                    class="form-control"
+                  />
+                </div>
+                <div class="form-group">
+                  <input
+                    name="address"
+                    required="required"
+                    placeholder="Enter your location"
+                    type="address"
+                    class="form-control"
+                  />
+                </div>
+
+                <div class="form-group">
+                  <textarea
+                    class="form-control"
+                    placeholder="Tell us what you have in mind!"
+                    id="messageArea"
+                    rows="3"
+                  ></textarea>
+                </div>
+                <div class="button-block">
+                  <a
+                    href="contact.html"
+                    class="rocket-btn rocket-btn-animated-icon rocket-btn-fixed-width rocket-btn-accent"
+                  >
+                    <span class="rocket-btn-icon-wrap">
+                      <i class="fa fa-rocket" aria-hidden="true"></i>
+                    </span>
+                    <span class="rocket-btn-text-wrap">Reach out</span></a
+                  >
+                </div>
+                <!-- <button class="rocket-btn rocket-btn-accent">Reach out</button> -->
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="js/assets.min.js"></script
+    ><script>
+      var finalDate = new Date("2017/11/19");
+      $("#countdown").countdown(finalDate, function(event) {
+        var $this = $(this).html(
+          event.strftime(
+            "" +
+              '<div class="countdown-section"><span class="countdown-amount">%D</span><span class="countdown-period">day%!D</span></div>' +
+              '<div class="countdown-section"><span class="countdown-amount">%H</span><span class="countdown-period">hour%!H</span></div>' +
+              '<div class="countdown-section"><span class="countdown-amount">%M</span><span class="countdown-period">minute%!M</span></div>' +
+              '<div class="countdown-section"><span class="countdown-amount">%S</span><span class="countdown-period">second%!S</span></div>'
+          )
+        );
+      });
+    </script>
+  </body>
+</html>
