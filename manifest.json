@@ -10,8 +10,6 @@
 	"description": "IT Company that focuses on developing custom software for business specific need.",
 	"orientation": "portrait",
 	"background_color": "#2f2442",
-	"related_applications": [],
-	"generated": "true",
 	"icons": [
 		{
 			"src": "img/icons/icon-72x72.png",
