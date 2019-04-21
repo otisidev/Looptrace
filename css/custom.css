@@ -94,3 +94,7 @@ input {
     margin-top: 1em;
   }
 }
+
+header ul.menu>li>a {
+  color: #251d33 !important;
+}
