@@ -76,3 +76,11 @@ input {
 .text-left>img {
   width: 100%
 }
+
+.text-pink {
+  color: #f46c93;
+}
+
+.text-ngn {
+  text-decoration: double line-through;
+}
