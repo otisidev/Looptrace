@@ -76,3 +76,7 @@ input {
 .text-left>img {
   width: 100%
 }
+
+.scrollToTop {
+  bottom: 100px !important;
+}
