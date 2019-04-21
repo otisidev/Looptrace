@@ -84,3 +84,7 @@ input {
 .text-ngn {
   text-decoration: double line-through;
 }
+
+.scrollToTop {
+  bottom: 100px !important;
+}
